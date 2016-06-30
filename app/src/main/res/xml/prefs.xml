@@ -3,17 +3,17 @@
     <ListPreference
         android:defaultValue="Meter"
         android:dialogTitle="Unit of length"
-        android:entries="@array/pref_units_of_length"
-        android:entryValues="@array/pref_units_of_length"
-        android:key="pref_length_units"
+        android:entries="@array/pref_length_unit_entries"
+        android:entryValues="@array/pref_length_unit"
+        android:key="pref_length_unit"
         android:summary="%s"
         android:title="@string/pref_unit_length"/>
     <ListPreference
         android:defaultValue="Celsius"
         android:dialogTitle="Unit of temperature"
-        android:entries="@array/pref_temperature_unit"
-        android:entryValues="@array/pref_temperature_unit"
-        android:key="pref_temperature_unit"
+        android:entries="@array/pref_temp_unit_entries"
+        android:entryValues="@array/pref_temp_unit"
+        android:key="pref_temp_unit"
         android:summary="%s"
         android:title="@string/pref_unit_temperature"/>
 </PreferenceScreen>

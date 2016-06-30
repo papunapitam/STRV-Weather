@@ -54,7 +54,7 @@ public class SettingsHelper implements SharedPreferences.OnSharedPreferenceChang
 
     private void loadSavedSettings() {
         SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(context);
-        distanceUnit = sharedPref.getString(SettingsFragment.KEY_PREF_DISTANCE_UNIT, context.getString(R.string.pref_length_unit_default_value));
-        tempUnit = sharedPref.getString(SettingsFragment.KEY_PREF_TEMPERATURE_UNIT, context.getString(R.string.pref_temperature_unit_default_value));
+        distanceUnit = sharedPref.getString(SettingsFragment.PREF_LENGTH_UNIT, context.getString(R.string.pref_length_unit_default_value));
+        tempUnit = sharedPref.getString(SettingsFragment.PREF_TEMP_UNIT, context.getString(R.string.pref_temperature_unit_default_value));
     }
 }
