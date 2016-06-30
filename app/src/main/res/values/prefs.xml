@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SETTINGS -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_unit_length">Unit of length</string>
+    <string name="pref_unit_temperature">Unit of temperature</string>
+    <string-array name="pref_units_of_length">
+        <item>Meter</item>
+        <item>Kilometer</item>
+    </string-array>
+    <string-array name="pref_temperature_unit">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+    </string-array>
+    <string name="pref_temperature_unit_default_value">Celsius</string>
+    <string name="pref_length_unit_default_value">Meter</string>
+</resources>
